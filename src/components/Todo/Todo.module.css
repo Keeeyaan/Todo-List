@@ -1,0 +1,52 @@
+.todo {
+  height: 40rem;
+  width: 25rem;
+  background: white;
+  margin: 8rem auto 0px;
+  border-radius: 20px;
+}
+
+.wrapper {
+  margin: 0px 1rem;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+}
+
+.animation {
+  position: absolute;
+  height: 4px;
+  bottom: 0%;
+  z-index: 1;
+  background: #65d384;
+  width: 3rem;
+  
+}
+.line {
+  position: absolute;
+  height: 2px;
+  bottom: 0%;
+  z-index: 0;
+  background: #000000;
+  width: 100%
+}
+
+.button {
+  height: 2rem;
+  width: 3.5rem;
+  border: none;
+  font-style: inherit;
+  font-weight: bold;
+  color: #000000;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: white;
+  text-align: center;
+}

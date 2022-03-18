@@ -1,0 +1,19 @@
+.checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 1rem;
+  width: 1rem;
+  border: 1px solid #c4c4c4;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.checkbox:hover {
+    background-color: #e6e6e6;
+}
+
+.checkbox:checked {
+    background-color: #65d384;
+    border: 2px solid #65d384;
+}

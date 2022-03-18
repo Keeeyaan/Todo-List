@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 1.5rem;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+}
+
+.pad {
+    padding-left: 0.2rem;
+}
+
+.year {
+    font-weight: 400;
+}
