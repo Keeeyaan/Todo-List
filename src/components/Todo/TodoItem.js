@@ -12,17 +12,22 @@ const TodoItem = (props) => {
 
   const checkHandler = () => {
     if (textCheck) {
-      setNewTextCheck(false);
+      setNewTextCheck(props.completed);
+      props.status(props.id);
     } else {
-      setNewTextCheck(true);
+      setNewTextCheck(props.completed);
+      props.status(props.id);
     }
   };
 
   return (
     <li className={classes["todo-item"]}>
       <div className={classes.t}>
-        <CheckBox className={classes.checkbox} onClick={checkHandler} />
-        <h5 className={classes[textCheck ? "text-checked" : ""]}>
+        <CheckBox
+          className={classes[props.completed ? "checker-checked" : "checkbox"]}
+          onClick={checkHandler}
+        />
+        <h5 className={classes[props.completed ? "text-checked" : ""]}>
           {props.todo}
         </h5>
       </div>

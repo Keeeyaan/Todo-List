@@ -5,20 +5,41 @@
   padding: 0.5rem 0;
   margin: 0.5rem 1.5rem;
   color: #313131;
+  font-size: 1.2rem;
 }
 
 .t {
   display: flex;
+  align-items: center;
 }
 
 .delete {
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+}
+.delete:hover {
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
 .text-checked {
   text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .checkbox {
-  margin-right: 1rem;
+  border: 1px solid #c4c4c4;
+}
+
+.checkbox:hover {
+  background-color: #e6e6e6;
+}
+
+.checker-checked {
+  background-color: #65d384;
+  border: 2px solid #65d384;
+}
+.checker-checked:checked {
+  background-color: #65d384;
+  border: 2px solid #65d384;
 }

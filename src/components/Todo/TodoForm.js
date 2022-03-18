@@ -14,12 +14,14 @@ const TodoForm = (props) => {
     setEnteredTodo(event.target.value);
   };
   const submitHandler = (event) => {
+    setFormIsValid(enteredTodo.trim().length > 0);
     event.preventDefault();
     if (!formIsValid) {
       return;
     }
 
     props.onSaveInputData({
+      completed: false,
       id: Math.floor(Math.random() * 10000).toString(),
       todo: enteredTodo,
     });

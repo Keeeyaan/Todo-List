@@ -10,6 +10,8 @@ const Todolist = (props) => {
           id={todo.id}
           todo={todo.todo}
           onRemove={props.removeTodo}
+          status={props.status}
+          completed={todo.completed}
         />
       ))}
     </ul>
