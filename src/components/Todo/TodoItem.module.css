@@ -1,9 +1,22 @@
 .todo-item {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 0.5rem 0;
   margin: 0.5rem 1.5rem;
   color: #313131;
+}
+
+.t {
+  display: flex;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.text-checked {
+  text-decoration: line-through;
 }
 
 .checkbox {
