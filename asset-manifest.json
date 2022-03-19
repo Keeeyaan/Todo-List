@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Keeeyaan.github.io/Todo-List/static/css/main.48df0b28.css",
+    "main.js": "/Keeeyaan.github.io/Todo-List/static/js/main.6e408d85.js",
+    "index.html": "/Keeeyaan.github.io/Todo-List/index.html",
+    "main.48df0b28.css.map": "/Keeeyaan.github.io/Todo-List/static/css/main.48df0b28.css.map",
+    "main.6e408d85.js.map": "/Keeeyaan.github.io/Todo-List/static/js/main.6e408d85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48df0b28.css",
+    "static/js/main.6e408d85.js"
+  ]
+}
